@@ -1,5 +1,5 @@
 # Harvest_Date_Prediction
-## A prediction model on the time needed for harvest🥬
+## A prediction model on the time needed for lettuce harvest🥬
 At the beginning of this project, the only data we have are: 1. Real-time data of air temperature, humidity, and luminosity from farms; 2. Some basic knowledge from the web and farmers is that plant growth is a sigmoid curve. For butter lettuce (the plant species used in this project), the time for harvest needed will be 35 days (for winter) and 50 days (for summer) respectively, and the plant should be around 14cm tall when it is ready for harvest. Those are all the details we have, but how can we make a prediction model for predicting the time needed for harvest under any specific condition combination (e.g. 10 degrees Celsius, 70% humidity, and 8000 lux luminosity)? This is what the project is about.
 
 **Data Analysis** (Can be found in `Lettuce G/Codes/Data Analysis (Wing Lam Garden).ipynb`)
